@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services.Implementation
 {
-    public class MssqlContactService : IMssqlContactRepository
+    public class MssqlContactService : lContactRepository
     {
         private ContactContext _appContext;
 

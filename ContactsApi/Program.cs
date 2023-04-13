@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ContactContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnString")), ServiceLifetime.Scoped);
 builder.Services.AddScoped<IHubspotService, HubspotService>();
-builder.Services.AddScoped<IMssqlContactRepository, MssqlContactService>();
+builder.Services.AddScoped<lContactRepository, MssqlContactService>();
 
 var app = builder.Build();
 

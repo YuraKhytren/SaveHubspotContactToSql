@@ -9,8 +9,8 @@ namespace ContactsApi.Controllers
     {
         private readonly IConfiguration _configuration;
         private IHubspotService _hubspotService;
-        private IMssqlContactRepository _msqlContactRepository;
-        public ContactController(IConfiguration configuration, IHubspotService hubspotService, IMssqlContactRepository mssqlContactRepository) 
+        private lContactRepository _msqlContactRepository;
+        public ContactController(IConfiguration configuration, IHubspotService hubspotService, lContactRepository mssqlContactRepository) 
         {
             _configuration = configuration;
             _hubspotService = hubspotService;

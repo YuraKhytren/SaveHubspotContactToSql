@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services.Interfaces
 {
-    public interface IMssqlContactRepository
+    public interface lContactRepository
     {
         Task WriteContact(List<ContactDto> contacts);
     }
